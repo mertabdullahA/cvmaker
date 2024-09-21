@@ -1,0 +1,93 @@
+/* Sayfa genel stili */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Kutucuğu ortalamak için ana div */
+.container {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+/* Başlık */
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* İlerleme barı */
+.progress-bar-container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  height: 15px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #ff6600;
+  border-radius: 50px;
+  transition: width 0.4s ease;
+}
+
+/* Adım numaralarını gösteren sayı */
+.step {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Input alanları */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Buton stilleri */
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+/* Buton hover efekti */
+button:hover {
+  background-color: #e65c00;
+}
+
+/* Geri butonu için margin */
+button:first-of-type {
+  margin-right: 10px;
+}
+
+/* Altı çizili alan */
+.underline {
+  width: 50px;
+  height: 4px;
+  background-color: #ff6600;
+  margin: 10px auto;
+}
